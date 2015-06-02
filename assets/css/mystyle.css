@@ -1,0 +1,124 @@
+@font-face {
+    font-family: 'Bazic';
+    src: url('../fonts/basictitlefont.ttf');
+}
+
+@font-face {
+    font-family: 'Nudl';
+    src: url('../fonts/big_noodle_titling.ttf');
+}
+
+@font-face {
+    font-family: 'Calm';
+    src: url('../fonts/KeepCalm-Medium.ttf');
+}
+
+@font-face {
+    font-family: 'Dubiel';
+    src: url('../fonts/Dubiel.ttf');
+}
+
+@font-face {
+    font-family: 'DubielI';
+    src: url('../fonts/DubielItalic.ttf');
+}
+
+html {
+    text-align: center;
+    margin-top: 20%;
+}
+
+h1 {
+    font-family: 'Dubiel';
+    text-transform: uppercase;
+    font-size: 400%;
+}
+
+h2 {
+    font-family: 'DubielI';
+    font-size: 125%;
+}
+
+nav a {
+    font-family: 'Dubiel';
+    text-decoration: none;
+    color: black;
+    font-size: 115%;
+}
+
+nav a:hover {
+    font-family: 'DubielI';
+    -webkit-transition: 1s;
+}
+
+footer {
+    padding-top: 1%;
+    font-family: 'DubielI';
+    font-size: 100%;
+    color: #C4C4C4;
+    position: absolute;
+    bottom: 0;
+    width: 99%;
+    height: 40px;
+    background: white;
+}
+
+@media only screen and (max-width: 400px) {
+    html {
+        margin-top: 30%;
+    }
+    h1 {
+        font-size: 200%;
+    }
+    h2 {
+        font-size: 100%;
+    }
+    footer {
+        font-size: 80%;
+        padding-top: 3%;
+        width: 97%;
+    }
+    nav a {
+        font-size: 90%;
+    }
+    footer {}
+}
+
+@media only screen and (max-width: 600px) {
+    html {
+        margin-top: 30%;
+    }
+    h1 {
+        font-size: 280%;
+    }
+    h2 {
+        font-size: 135%;
+    }
+    footer {
+        font-size: 100%;
+        padding-top: 2%;
+        width: 95%;
+    }
+    nav a {
+        font-size: 110%;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    html {
+        margin-top: 30%;
+    }
+    h1 {
+        font-size: 275%;
+    }
+    h2 {
+        font-size: 135%;
+    }
+    footer {
+        font-size: 100%;
+        padding-top: 2%;
+    }
+    nav a {
+        font-size: 110%;
+    }
+}
